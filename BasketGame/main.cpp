@@ -12,6 +12,7 @@ int main()
 	RenderWindow window(VideoMode(800, 600), "Game");
 
 	CircleShape shape(30);
+	shape.setFillColor(Color::Red);
 
 	RectangleShape square(Vector2f(80, 80));
 	square.setPosition(Vector2f(100, 100));
