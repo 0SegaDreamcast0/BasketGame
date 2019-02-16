@@ -10,7 +10,8 @@ int main()
 
 	CircleShape shape(30);
 
-
+	RectangleShape square(Vector2f(80, 80));
+	square.setPosition(Vector2f(100, 100));
 
 	while (window.isOpen())
 	{
@@ -30,6 +31,7 @@ int main()
 
 		window.clear();
 		window.draw(shape);
+		window.draw(square);
 		window.display();
 	}
 
