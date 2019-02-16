@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы ресурсов\bin">
+      <UniqueIdentifier>{aec06fc0-7fc5-42dd-aea8-492b1c9b4c84}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,23 +23,23 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\openal32.dll">
-      <Filter>Файлы ресурсов</Filter>
+    <None Include="..\SFML\bin\openal32.dll">
+      <Filter>Файлы ресурсов\bin</Filter>
     </None>
-    <None Include="bin\sfml-audio-d-2.dll">
-      <Filter>Файлы ресурсов</Filter>
+    <None Include="..\SFML\bin\sfml-audio-d-2.dll">
+      <Filter>Файлы ресурсов\bin</Filter>
     </None>
-    <None Include="bin\sfml-graphics-d-2.dll">
-      <Filter>Файлы ресурсов</Filter>
+    <None Include="..\SFML\bin\sfml-graphics-d-2.dll">
+      <Filter>Файлы ресурсов\bin</Filter>
     </None>
-    <None Include="bin\sfml-network-d-2.dll">
-      <Filter>Файлы ресурсов</Filter>
+    <None Include="..\SFML\bin\sfml-network-d-2.dll">
+      <Filter>Файлы ресурсов\bin</Filter>
     </None>
-    <None Include="bin\sfml-system-d-2.dll">
-      <Filter>Файлы ресурсов</Filter>
+    <None Include="..\SFML\bin\sfml-system-d-2.dll">
+      <Filter>Файлы ресурсов\bin</Filter>
     </None>
-    <None Include="bin\sfml-window-d-2.dll">
-      <Filter>Файлы ресурсов</Filter>
+    <None Include="..\SFML\bin\sfml-window-d-2.dll">
+      <Filter>Файлы ресурсов\bin</Filter>
     </None>
   </ItemGroup>
 </Project>
