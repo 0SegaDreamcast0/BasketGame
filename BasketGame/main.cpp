@@ -8,6 +8,10 @@ int main()
 {
 	RenderWindow window(VideoMode(800, 600), "Game");
 
+	CircleShape shape(30);
+
+
+
 	while (window.isOpen())
 	{
 		Event event;
@@ -25,7 +29,7 @@ int main()
 
 
 		window.clear();
-
+		window.draw(shape);
 		window.display();
 	}
 
