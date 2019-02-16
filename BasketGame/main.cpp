@@ -9,12 +9,15 @@ int main()
 	cout << "I love SFML!!!" << endl;
 	cout << "This is test SFML!!!" << endl;
 
-	RenderWindow window(VideoMode(800, 600), "Game");
+	ContextSettings setting;
+	setting.antialiasingLevel = 16;
+	RenderWindow window(VideoMode(800, 600), "Game", 7U, setting);
 
 	CircleShape shape(30);
 
 	RectangleShape square(Vector2f(80, 80));
 	square.setPosition(Vector2f(100, 100));
+	square.setFillColor(Color::Yellow);
 
 	while (window.isOpen())
 	{
