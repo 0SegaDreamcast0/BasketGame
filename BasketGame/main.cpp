@@ -6,6 +6,9 @@ using namespace sf;
 
 int main()
 {
+	cout << "I love SFML!!!" << endl;
+	cout << "This is test SFML!!!" << endl;
+
 	RenderWindow window(VideoMode(800, 600), "Game");
 
 	CircleShape shape(30);
